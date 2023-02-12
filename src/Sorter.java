@@ -43,16 +43,13 @@ public class Sorter {
         }
     }
 
-    // Prints the array
-    void printArray(int arr[])
-    {
-        int n = arr.length;
-        for (int i=0; i<n; ++i)
-            System.out.print(arr[i]+" ");
-        System.out.println();
-    }
+
      void sort(int[] arr){
         insertionSort(arr);
+     }
+
+     public void sort2(int[] arr){
+        selectionSort(arr);
      }
 
 }
